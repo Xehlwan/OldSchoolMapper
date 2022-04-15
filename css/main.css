@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.center-contents {
+    display: flex;
+    justify-content: center;
+}
+
+.column-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+}
+
+p.error {
+    color: red;
+    text-shadow: 2 2 2 black;
+    font-weight: bold;
+}
+
+canvas#map-canvas {
+    background-color: whitesmoke;
+    box-shadow: 1px 2px 4px black;
+}

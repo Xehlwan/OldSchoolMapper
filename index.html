@@ -1,1 +1,26 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="all">
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="js/mapper.js"></script>
+</head>
+
+<body class="center-contents">
+    <div class="column-contents">
+        <h1 class="test">Old-School Mapper</h1>
+        <fieldset>
+            <label>Pixels Per Square</label>
+            <input type="number" id="map-grid-resolution" value="25">
+        </fieldset>
+        <canvas id="map-canvas" width="400" height="400">
+            <p class="error">
+                ERROR: JavaScript is disabled, or the browser does not support the "Canvas" element.
+            </p>
+        </canvas>
+    </div>
+</body>
+
+</html>
