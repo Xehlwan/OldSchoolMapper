@@ -6,6 +6,8 @@
 
 body {
     background-color: bisque;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .center-contents {
@@ -16,6 +18,7 @@ body {
 .column-contents {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .left {
